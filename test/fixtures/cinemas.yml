@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cinema_name: MyText
+  synopsis: MyText
+  grossing: MyText
+  image: MyText
+
+two:
+  cinema_name: MyText
+  synopsis: MyText
+  grossing: MyText
+  image: MyText

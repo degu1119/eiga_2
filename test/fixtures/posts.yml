@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: 
+  g: MyString
+  model: MyString
+  Post: MyString
+  content: 
+  g: MyString
+  model: MyString
+  cinema　cinema_name: MyText
+  synopsis: MyText
+  grossing: MyText
+  image: MyText
+
+two:
+  content: 
+  g: MyString
+  model: MyString
+  Post: MyString
+  content: 
+  g: MyString
+  model: MyString
+  cinema　cinema_name: MyText
+  synopsis: MyText
+  grossing: MyText
+  image: MyText
