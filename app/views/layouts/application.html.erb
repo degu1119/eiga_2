@@ -10,6 +10,20 @@
   </head>
 
   <body>
+    <header id="header">
+    <div class="login">ログイン　新規登録</div>
+      <form action="retrieval.html" method="get">
+        <input id="sbox1"  id="s" name="s" type="text" placeholder="検索窓" />
+      </form>
+    </header>
+   
     <%= yield %>
+    
+     <footer id="footer">
+      <div class="footer2">
+        <a href ="company.html" class="cp_link2">会社概要・プライバシーポリシー</a>
+      </div>
+    <p>Copyright c 2018 Apple Inc. All rights reserved.</p>
+    </footer>
   </body>
 </html>

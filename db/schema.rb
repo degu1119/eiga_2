@@ -10,19 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_12_05_073128) do
+ActiveRecord::Schema.define(version: 2018_12_06_063710) do
 
   create_table "cinemas", force: :cascade do |t|
-    t.text "cinema_name"
-    t.text "synopsis"
-    t.text "grossing"
-    t.string "image"
+    t.string "cinema_name"
+    t.string "synopsis"
+    t.string "grossing"
+    t.text "image"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "reviews", force: :cascade do |t|
-    t.text "review"
+    t.text "content"
     t.integer "hyouka"
     t.integer "user_id"
     t.integer "cinema_id"
